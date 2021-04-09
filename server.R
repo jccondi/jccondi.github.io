@@ -3,4 +3,4 @@ server <- function(input, output) {
   # empty
 }
 
-# shinyApp(ui = ui, server = server)
+shinyApp(ui = ui, server = server)
