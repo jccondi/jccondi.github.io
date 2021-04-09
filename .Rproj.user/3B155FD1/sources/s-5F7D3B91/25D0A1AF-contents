@@ -30,7 +30,7 @@ ui <- fluidPage(
         ),
         column(
           5,
-          img(src = "birds.jpeg", width = "100%")
+          img(src = "birds.jpg", width = "100%")
         )
       ),
     )
