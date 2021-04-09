@@ -30,9 +30,11 @@ ui <- fluidPage(
         ),
         column(
           5,
-          img(src = "birds.jpg", width = "100%")
+          img(src = "birds.png", width = "100%")
         )
       ),
     )
   )
 )
+
+shinyApp(ui = ui, server = server)
